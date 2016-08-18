@@ -4,6 +4,24 @@ output "aws" {
 
 ######
 
+output "private" {
+	value = [ "${module.maps.computed_private_1}", "${module.maps.computed_private_2}", "${module.maps.computed_private_3}" ]
+}
+output "public" {
+	value = [ "${module.maps.computed_public_1}", "${module.maps.computed_public_2}", "${module.maps.computed_public_3}" ]
+}
+output "cache" {
+	value = [ "${module.maps.computed_cache_1}", "${module.maps.computed_cache_2}", "${module.maps.computed_cache_3}" ]
+}
+output "db" {
+	value = [ "${module.maps.computed_db_1}", "${module.maps.computed_db_2}", "${module.maps.computed_db_3}" ]
+}
+output "cassandra" {
+	value = [ "${module.maps.computed_cassandra_1}", "${module.maps.computed_cassandra_2}", "${module.maps.computed_cassandra_3}" ]
+}
+output "elasticsearch" {
+	value = [ "${module.maps.computed_elasticsearch_1}", "${module.maps.computed_elasticsearch_2}", "${module.maps.computed_elasticsearch_3}" ]
+}
 output "private_1" {
 	value = "${module.maps.computed_private_1}"
 }
