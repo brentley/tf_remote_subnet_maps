@@ -1,3 +1,7 @@
+output "global_netspace" {
+	value = "${var.global_netspace}"
+}
+
 output "aws" {
 	value = "${module.maps.computed_aws}"
 }

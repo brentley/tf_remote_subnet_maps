@@ -1,5 +1,9 @@
 # grids
 
+variable "global_netspace" {
+  default = "10.0.0.0/8"
+}
+
 variable "subnet_stack_name" {}
 
 # The convention here is that lower numbers are for "group" grids, 
