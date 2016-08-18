@@ -17,5 +17,6 @@ variable "subnet_assignments" {
     zvickery        = "10.51.0.0/16"
     skapadia        = "10.52.0.0/16"
     thor            = "10.53.0.0/16"
+    badams          = "10.54.0.0/16"
   }
 }
