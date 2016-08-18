@@ -12,5 +12,7 @@ variable "subnet_assignments" {
     devops          = "10.11.0.0/16"
     akeller         = "10.50.0.0/16"
     zvickery        = "10.51.0.0/16"
+    skapadia        = "10.52.0.0/16"
+    thor            = "10.53.0.0/16"
   }
 }
