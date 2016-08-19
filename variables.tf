@@ -6,7 +6,7 @@ variable "global_netspace" {
 
 variable "subnet_stack_name" {}
 
-# The convention here is that lower numbers are for "group" grids, 
+# The convention here is that lower numbers are for "group" grids,
 # and higher numbers 50+ are for "user" grids.
 
 variable "subnet_assignments" {
@@ -21,5 +21,6 @@ variable "subnet_assignments" {
     zvickery        = "10.51.0.0/16"
     skapadia        = "10.52.0.0/16"
     thor            = "10.53.0.0/16"
+    alim            = "10.55.0.0/16"
   }
 }
