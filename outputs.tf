@@ -8,6 +8,9 @@ output "aws" {
 
 ######
 
+output "master" {
+	value = [ "${module.maps.computed_master_1}", "${module.maps.computed_master_2}", "${module.maps.computed_master_3}" ]
+}
 output "private" {
 	value = [ "${module.maps.computed_private_1}", "${module.maps.computed_private_2}", "${module.maps.computed_private_3}" ]
 }
@@ -34,6 +37,15 @@ output "private_2" {
 }
 output "private_3" {
 	value = "${module.maps.computed_private_3}"
+}
+output "master_1" {
+	value = "${module.maps.computed_master_1}"
+}
+output "master_2" {
+	value = "${module.maps.computed_master_2}"
+}
+output "master_3" {
+	value = "${module.maps.computed_master_3}"
 }
 output "public_1" {
 	value = "${module.maps.computed_public_1}"
@@ -80,4 +92,3 @@ output "elasticsearch_2" {
 output "elasticsearch_3" {
 	value = "${module.maps.computed_elasticsearch_3}"
 }
-

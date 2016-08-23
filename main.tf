@@ -22,4 +22,7 @@ module "maps" {
   input_elasticsearch_1        = "${cidrsubnet(module.maps.computed_aws, 6, 15)}"
   input_elasticsearch_2        = "${cidrsubnet(module.maps.computed_aws, 6, 16)}"
   input_elasticsearch_3        = "${cidrsubnet(module.maps.computed_aws, 6, 17)}"
+  input_master_1               = "${cidrsubnet(module.maps.computed_aws, 6, 18)}"
+  input_master_2               = "${cidrsubnet(module.maps.computed_aws, 6, 19)}"
+  input_master_3               = "${cidrsubnet(module.maps.computed_aws, 6, 20)}"
 }

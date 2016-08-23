@@ -20,3 +20,6 @@ variable "input_cassandra_3" {}
 variable "input_elasticsearch_1" {}
 variable "input_elasticsearch_2" {}
 variable "input_elasticsearch_3" {}
+variable "input_master_1" {}
+variable "input_master_2" {}
+variable "input_master_3" {}
