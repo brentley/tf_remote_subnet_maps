@@ -6,6 +6,10 @@ output "aws" {
 	value = "${module.maps.computed_aws}"
 }
 
+output "subnet_assignments" {
+    value = "${var.subnet_assignments}"
+}
+
 ######
 
 output "master" {
