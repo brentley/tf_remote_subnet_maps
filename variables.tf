@@ -20,6 +20,7 @@ variable "subnet_assignments" {
     cphalo          = "10.10.0.0/16"
     devops          = "10.11.0.0/16"
     develop         = "10.12.0.0/16"
+    r372            = "10.13.0.0/16"
     certmaster      = "10.30.0.0/16"
     akeller         = "10.50.0.0/16"
     zvickery        = "10.51.0.0/16"
