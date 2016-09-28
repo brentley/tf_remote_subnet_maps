@@ -32,5 +32,6 @@ variable "subnet_assignments" {
     apurvasingh     = "10.57.0.0/16"
     jcollier        = "10.58.0.0/16"
     wfrancis        = "10.59.0.0/16"
+    trobbins        = "10.60.0.0/16"
   }
 }
