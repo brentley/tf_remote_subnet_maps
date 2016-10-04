@@ -36,5 +36,6 @@ variable "subnet_assignments" {
     wfrancis        = "10.59.0.0/16"
     trobbins        = "10.60.0.0/16"
     aadriasola      = "10.61.0.0/16"
+    abuhayeu        = "10.62.0.0/16"
   }
 }
