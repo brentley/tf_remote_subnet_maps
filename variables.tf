@@ -37,5 +37,10 @@ variable "subnet_assignments" {
     trobbins        = "10.60.0.0/16"
     aadriasola      = "10.61.0.0/16"
     abuhayeu        = "10.62.0.0/16"
+    user1           = "10.63.0.0/16"
+    user2           = "10.64.0.0/16"
+    user3           = "10.65.0.0/16"
+    user4           = "10.66.0.0/16"
+    user5           = "10.67.0.0/16"
   }
 }
