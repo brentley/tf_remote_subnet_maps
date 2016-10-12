@@ -43,6 +43,14 @@ variable "subnet_assignments" {
     user4           = "10.66.0.0/16"
     user5           = "10.67.0.0/16"
     aardestani      = "10.68.0.0/16"
+    theocummings    = "10.69.0.0/16"
+    ddoolin         = "10.70.0.0/16"
+    trea            = "10.71.0.0/16"
+    kkim            = "10.72.0.0/16"
+    vmanda          = "10.73.0.0/16"
+    mkinsman        = "10.74.0.0/16"
+    bturner         = "10.75.0.0/16"
+    dzianis         = "10.76.0.0/16"
 
   }
 }
