@@ -42,7 +42,7 @@ variable "subnet_assignments" {
     user3           = "10.65.0.0/16"
     user4           = "10.66.0.0/16"
     user5           = "10.67.0.0/16"
-    alisade         = "10.68.0.0/16"
+    aardestani      = "10.68.0.0/16"
 
   }
 }
