@@ -51,6 +51,7 @@ variable "subnet_assignments" {
     mkinsman        = "10.74.0.0/16"
     bturner         = "10.75.0.0/16"
     dzianis         = "10.76.0.0/16"
+    asingh          = "10.77.0.0/16"
 
   }
 }
